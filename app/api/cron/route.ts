@@ -5,7 +5,7 @@ import { scrapeAmazonProduct } from "@/lib/scraper";
 import { getAveragePrice, getHighestPrice, getLowestPrice, getNotificationType } from "@/lib/utils";
 
 
-export const maxDuration = 50; // This function can run for a maximum of 300 seconds
+export const maxDuration = 5; // This function can run for a maximum of 300 seconds
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
 
