@@ -138,7 +138,7 @@ export function getAveragePrice(priceHistory : PriceHistoryItem[]) {
     if(priceHistory.length == 0)
         return 0;
 
-    let sum = 0, count = 1;
+    let sum = 0, count = 0;
     for(let element of priceHistory) {
         sum += element.price;
         count++;
